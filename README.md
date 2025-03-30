@@ -10,9 +10,9 @@
 ---
 
 # Required ReadMe Info for ALL MCS1653 Projects
-* **Project**   - 
-* **Your Name** - 
-* **Date**      - 
+* **Project**   - I Must Be First
+* **Your Name** - Eli Smith
+* **Date**      - April 13, 2025
 
 <br>
 
