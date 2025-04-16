@@ -60,12 +60,14 @@ public class User : MonoBehaviour
             face.sprite = angryFace;
             facering.material = redRing;
             happy = false;
+            AudioSource.PlayClipAtPoint(SoundManager.powerOff, Camera.main.transform.position);
         }
         else
         {
             face.sprite = happyFace;
             facering.material = greenRing;
             happy = true;
+            AudioSource.PlayClipAtPoint(SoundManager.powerOn, Camera.main.transform.position);
         }
     }
 

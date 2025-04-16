@@ -32,6 +32,7 @@ public class Connection : MonoBehaviour
                 user.connectedToFriends = false;
                 user.powerCut = false;
                 sr.sprite = redLine;
+                AudioSource.PlayClipAtPoint(SoundManager.endCall, Camera.main.transform.position);
                 user.runCheck(user.currentAction);
             }
             else if (action == 3) 
@@ -39,6 +40,7 @@ public class Connection : MonoBehaviour
                 user.connectedToFriends = false;
                 user.powerCut = true;
                 sr.sprite = redLine;
+                AudioSource.PlayClipAtPoint(SoundManager.cutPower, Camera.main.transform.position);
                 user.runCheck(user.currentAction);
             }
         }

@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class CheckButton : MonoBehaviour
 {
+    public GameObject winScreen;
+    
     public GameObject[] users;
     public TextMeshProUGUI statusText;
 
@@ -28,6 +30,10 @@ public class CheckButton : MonoBehaviour
                 continue;
             }
         }
+        GameObject.Find("Main Camera").GetComponent<AudioSource>().Stop();
+        AudioSource.PlayClipAtPoint(SoundManager.win, Camera.main.transform.position);
+        Debug.Log("YOU WIN");
+        winScreen.SetActive(true);
         statusText.text = "I AM first!";
     }
 }

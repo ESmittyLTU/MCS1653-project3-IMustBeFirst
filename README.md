@@ -12,55 +12,74 @@
 # Required ReadMe Info for ALL MCS1653 Projects
 * **Project**   - I Must Be First
 * **Your Name** - Eli Smith
-* **Date**      - April 13, 2025
+* **Date**      - April 16, 2025
 
 <br>
 
 1. **What are the controls to your game? How do we play?**
 
-
+Click to drop "actions" onto other users as a means of disabling them. Disable all other users and hit the "check" button to win!
 
 <br>
 
 2. **What creative additions did you make? How can we find them?**
 
-
+Everything excluding the sound. Art, Code, and anything else in between was all me.
 
 <br>
 
 3. **Any assets used that you didn't create yourself?** <br> (art, music, etc. Just tell us where you got it, link it here)
 
+SOUND:
+Jingle_Win_Synth_05.wav by LittleRobotSoundFactory -- https://freesound.org/s/274182/ -- License: Attribution 4.0
+
+Cutting Power by swag1773 -- https://freesound.org/s/636578/ -- License: Creative Commons 0
+
+Menu_Cursor by SomeUsername0 -- https://freesound.org/s/793356/ -- License: Creative Commons 0
+
+oneSound_002 by monosfera -- https://freesound.org/s/789903/ -- License: Creative Commons 0
+
+mobile_phone_hanging_up.wav by joedeshon -- https://freesound.org/s/567720/ -- License: Creative Commons 0
+
+Pop_7.aif by SunnySideSound -- https://freesound.org/s/67093/ -- License: Attribution 4.0
+
+MUSIC:
+Royalty Free Music: Bensound.com/royalty-free-music
+License code: BEYSRV7YLXSWZCXT
+
+Music I Use: Bensound.com/free-music-for-videos
+License code: P6VRYWOKJBLEHNPU
 
 
 <br>
 
 4. **Did you receive help from anyone outside this class?** <br> (list their names and what they helped with)
 
-
+No.
 
 <br>
 
 5. **Did you get help from any AI Code Assistants?** <br> (Tell us which .cs file to look in for the citation and describe what you learned)
 
-
+No.
 
 <br>
 
 6. **Did you get help from any online websites, videos, or tutorials?** <br> (link them here)
 
-
+General unity discussion boards.
 
 <br>
 
 7. **What trouble did you have with this project?**
 
-
+Canvas scaling is a pain to get working right. Figuring out what scripts to have what (especially when they are all dependent on each-other. I have become very fond of using static variables whenever possible and will use a public variable to change it within the inspector, and then set the static variable to said public variable. 
 
 <br>
 
 8. **Is there anything else we should know?**
 
-
+I am awesome. But you already knew that.
 
 
 <br><br><br><br><br>

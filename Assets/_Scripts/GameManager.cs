@@ -64,6 +64,7 @@ public class GameManager : MonoBehaviour
                                 Cursor.SetCursor(banIcon, Vector2.zero, CursorMode.Auto);
                                 user.runCheck(user.currentAction);
                                 user.action.sprite = null;
+                                AudioSource.PlayClipAtPoint(SoundManager.place, Camera.main.transform.position);
                             }
                             else if (user.currentAction == 1)
                             {
@@ -74,6 +75,7 @@ public class GameManager : MonoBehaviour
                                 Cursor.SetCursor(punchIcon, Vector2.zero, CursorMode.Auto);
                                 user.runCheck(user.currentAction);
                                 user.action.sprite = null;
+                                AudioSource.PlayClipAtPoint(SoundManager.place, Camera.main.transform.position);
                             }
                         }
 
@@ -200,6 +202,7 @@ public class GameManager : MonoBehaviour
             buildMode = true;
             action = 0;
             Cursor.SetCursor(banIcon, Vector2.zero, CursorMode.Auto);
+            AudioSource.PlayClipAtPoint(SoundManager.place, Camera.main.transform.position);
         }
     }
 
@@ -210,6 +213,7 @@ public class GameManager : MonoBehaviour
             buildMode = true;
             action = 1;
             Cursor.SetCursor(punchIcon, Vector2.zero, CursorMode.Auto);
+            AudioSource.PlayClipAtPoint(SoundManager.place, Camera.main.transform.position);
         }
     }
 
@@ -220,6 +224,7 @@ public class GameManager : MonoBehaviour
             buildMode = true;
             action = 2;
             Cursor.SetCursor(endCallIcon, Vector2.zero, CursorMode.Auto);
+            AudioSource.PlayClipAtPoint(SoundManager.place, Camera.main.transform.position);
         }
     }
 
@@ -230,6 +235,7 @@ public class GameManager : MonoBehaviour
             buildMode = true;
             action = 3;
             Cursor.SetCursor(cutPowerIcon, Vector2.zero, CursorMode.Auto);
+            AudioSource.PlayClipAtPoint(SoundManager.place, Camera.main.transform.position);
         }
     }
 }

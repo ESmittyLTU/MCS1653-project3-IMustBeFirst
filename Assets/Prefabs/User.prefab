@@ -239,6 +239,11 @@ MonoBehaviour:
   mod: 0
   gymbro: 0
   laptopUser: 0
+  friends: []
+  happy: 1
+  connectedToFriends: 0
+  powerCut: 0
+  currentAction: -1
   action: {fileID: 8832459005640401952}
   nametag: {fileID: 6945159665088539788}
   happyFace: {fileID: 0}
@@ -304,7 +309,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -6}
-  m_SizeDelta: {x: 200, y: 50}
+  m_SizeDelta: {x: 268.79, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4064690675916662493
 CanvasRenderer:
